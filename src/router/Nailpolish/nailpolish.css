@@ -1,0 +1,48 @@
+.loader {
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 250px;
+    background: #000000;
+    --_m: 
+      conic-gradient(#0000 10%,#000),
+      linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    -webkit-mask-composite: source-out;
+            mask-composite: subtract;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {to{transform: rotate(1turn)}}
+
+  .laylo{
+        max-width: 1570px;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .pro{
+        max-height: 600px;
+        max-width: 356px;
+        display: flex;
+        flex-direction: column;
+    }
+    .btn_icon{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+      }
+      .btn1{
+         width: 100%;
+         margin-top: 30px;
+         border: 1px solid rgb(105, 105, 105);
+         background-color: #fff;
+         padding: 10px;
+      }
+    .CardMedia{
+        width: 356px;
+        height: 300px;
+    }

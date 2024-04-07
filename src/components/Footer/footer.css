@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Sofia Sans Condensed', "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 425px;
+    justify-content: center;
+    line-height: 24px;
+    padding-top: 57.6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-size-adjust: 100%;
+    max-width: 1670px;
+    background-color: rgb(246, 246, 246);
+}
+
+.footer-wrapp {
+    font-size: 16px;
+    height: 254.797px;
+    position: relative;
+    text-size-adjust: 100%;
+    min-width: 1520px;
+    display: flex;
+}
+
+.img-footer {
+    flex-basis: 285px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: sofia-pro, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    max-height: 255px;
+    line-height: 24px;
+    margin-right: 76px;
+    text-align: left;
+    max-width: 770px;
+}
+
+.img-footer>img {
+    height: 106px;
+    line-height: 24px;
+    overflow-x: visible;
+    overflow-y: visible;
+    width: 530px;
+}
+.footer_list{
+    height: 214px;
+    margin-right: 76px;
+    margin-bottom: 40px;
+    max-width: 305px;
+    display: flex;
+    gap: 32px;
+    padding-top: 25px;
+}
+.list-wrapper > li {
+   text-decoration: none;
+   list-style: none;
+}
+.list-wrapper > h4{
+    font-family: sofia-pro, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    height: 19.1875px;
+    margin-bottom: 9.6px;
+    max-width: 138.781px;
+}
+.text{
+    height: 112px;
+    padding-bottom: 8px;
+    padding-top: 44px;
+    width: 1520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+.payments{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 99px;
+    justify-content: center;
+    padding-bottom: 12.8px;
+    padding-left: 25.6px;
+    padding-right: 25.6px;
+    padding-top: 12.8px;
+    max-width: 1566px;
+    margin-left: 24px;
+    margin-right: 24px;
+    gap: 20px;
+}
+.payment__cards{
+    height:72px;
+    max-width: 146px;
+    display: flex;
+    align-items: center;
+}
+
+.email__wrap{
+    height: 254.797px;
+    max-width: 292px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.email__wrap > p{
+    height: 63px;
+    margin-bottom: 6.4px;
+    margin-top: 6.4px;
+    max-width: 292px;
+}
+section{
+    height: 99px;
+    max-width: 292px;
+}
+.form{
+    height: 37.7812px;
+    width: 292px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.form > input{
+    height: 36.7812px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 6.4px;
+    padding-top: 6.4px;
+    max-width: 268px;
+    width: 100%;
+    border: none;
+    min-height: auto;
+}
+.form-icon{
+    height: 26px;
+}
+
+.card__imgs{
+    display: flex;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 32px;
+    justify-content: space-between;
+    margin-top: 29.1875px;
+    max-width: 292px;
+}

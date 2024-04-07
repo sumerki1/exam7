@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: sofia-pro, "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  height: 3800px;
+  line-height: 24px;
+  min-height: 100vh;
+  /* text-size-adjust: 100%; */
+  unicode-bidi: isolate;
+  max-width: 1670px;
+  /* background-color: bisque; */
+}
